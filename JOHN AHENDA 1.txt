@@ -1,0 +1,1175 @@
+JOHN AHENDA 1
+APT3020 Knowledge-Based Systems
+Instructor: Ahenda John (0721692335) Email: jahenda@usiu.ac.ke
+Catalog Course Description
+This course aims to enable students to design a knowledge structure integrated with production
+planning, quality control and other subsystems of an industrial organization. The course will also enable
+students to apply AI techniques to the problem of acquisition and representation of expert knowledge for
+problem solving in the expert’s domain.
+Credit: 4.5 Credits
+Prerequisite: APT3010
+Course Learning Outcomes
+By the end of this course, students would be able to:
+1. Comprehend the foundational principles and diverse categories of Knowledge-Based Systems
+(KBS): Students will be able to define KBS, identify their core components and characteristics,
+differentiate between various types such as expert systems, rule-based systems, and case-based
+systems, and recognize their applications in real-world scenarios.
+2. Master fundamental techniques for representing knowledge in AI systems: Students will gain
+proficiency in utilizing logic-based approaches (propositional and first-order logic), semantic
+networks, frames, and ontologies to model and structure information for effective reasoning
+and problem-solving within KBS.
+3. Apply and evaluate different reasoning and inference mechanisms used in KBS: Students will
+be able to understand and implement rule-based reasoning (forward and backward chaining),
+case-based reasoning, and basic methods for handling uncertainty, enabling them to derive new
+knowledge and make informed decisions using KBS.
+4. Analyze the architecture, development lifecycle, and tools associated with Expert Systems:
+Students will develop a comprehensive understanding of expert systems as a significant type of
+KBS, including their components, knowledge acquisition methods, development stages, and the
+role of various tools and programming languages in their creation.
+5. Utilize and compare various problem-solving and search strategies within the context of KBS:
+Students will learn about blind and heuristic search algorithms and their critical role in enabling
+KBS to navigate through potential solutions and efficiently address complex problems.
+6. Explore advanced and contemporary topics in KBS, including machine learning integration and
+semantic web technologies: Students will gain an awareness of how machine learning
+techniques can enhance knowledge acquisition and refinement in KBS, and understand the
+principles and applications of semantic web technologies in building and utilizing large-scale
+knowledge systems.
+JOHN AHENDA 2
+Detailed Course Outline
+# Topic Sub-Topics Learning Outcomes Capstone Assignment References
+1 Introduction
+to KnowledgeBased Systems
+Definition of KBS,
+Characteristics of
+KBS, Components
+of KBS
+(Knowledge Base,
+Inference
+Engine), Types of
+KBS, Applications
+of KBS
+1. Remember: Define the term "Knowledge-Based
+System".
+2. Understand: Explain the core components of a
+KBS.
+3. Apply: Identify different real-world applications
+of KBS.
+4. Analyze: Differentiate between KBS and
+traditional computer programs.
+5. Evaluate: Assess the benefits and limitations of
+using KBS.
+6. Create: Propose a potential application of a KBS
+in a specific domain.
+Write a brief report
+outlining the key
+characteristics and
+components of a
+Knowledge-Based
+System, providing an
+example of its
+application.
+https://en.wikipedia.or
+g/wiki/Knowledgebased_systems,
+https://www.smartshee
+t.com/knowledge-basesystems-and-templates
+2 Types of
+KnowledgeBased Systems
+Expert Systems,
+Rule-Based
+Systems, CaseBased Systems,
+Blackboard
+Systems,
+Intelligent
+Tutoring Systems,
+Classification
+Systems
+1. Remember: List the different types of
+Knowledge-Based Systems.
+2. Understand: Describe the fundamental principles
+of each type of KBS.
+3. Apply: Classify a given scenario into one of the
+KBS types.
+4. Analyze: Compare and contrast the strengths and
+weaknesses of different KBS types.
+5. Evaluate: Determine the most suitable KBS type
+for a given problem.
+6. Create: Design a high-level architecture for a
+specific type of KBS.
+Develop a
+comparative table
+summarizing the key
+features, advantages,
+and disadvantages of
+at least three
+different types of
+Knowledge-Based
+Systems.
+https://kmslh.com/glos
+sary/knowledge-basedsystem/
+JOHN AHENDA 3
+3 Knowledge
+Representatio
+n:
+Introduction
+Definition of
+Knowledge
+Representation,
+Importance of
+Knowledge
+Representation,
+Desirable
+Properties of
+Knowledge
+Representation,
+Different
+Approaches to
+Knowledge
+Representation
+1. Remember: Define "Knowledge
+Representation" in the context of AI.
+2. Understand: Explain why effective
+knowledge representation is crucial for KBS.
+3. Apply: Identify the key properties that a
+good knowledge representation scheme
+should possess. 4. Analyze: Categorize
+different knowledge representation
+approaches based on their underlying
+principles.
+5. Evaluate: Discuss the trade-offs involved
+in choosing a particular knowledge
+representation method.
+6. Create: Outline a strategy for representing
+knowledge in a new, simple domain.
+Prepare a
+presentation
+explaining the
+significance of
+knowledge
+representation
+and outlining
+the various
+approaches
+available.
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.scaler.com/topics/art
+ificial-intelligencetutorial/techniques-of-knowledgerepresentation/
+4 Logic-Based
+Representatio
+n:
+Propositional
+Logic
+Syntax of
+Propositional Logic,
+Semantics of
+Propositional Logic,
+Logical
+Connectives, Truth
+Tables, Limitations
+of Propositional
+Logic
+1. Remember: Define the basic symbols and
+connectives used in Propositional Logic.
+2. Understand: Explain how truth values are
+assigned to propositions and compound
+statements.
+3. Apply: Construct truth tables for given
+propositional logic expressions.
+4. Analyze: Break down complex statements
+into propositional logic formulas.
+5. Evaluate: Assess the expressiveness and
+limitations of Propositional Logic for
+knowledge representation.
+6. Create: Formulate simple real-world
+scenarios using propositional logic.
+Solve a set of
+logical puzzles
+by representing
+the given
+information in
+propositional
+logic and using
+truth tables to
+find the
+solutions.
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/
+JOHN AHENDA 4
+5 Logic-Based
+Representatio
+n: First-Order
+Logic
+Syntax of FirstOrder Logic
+(Objects,
+Predicates,
+Variables,
+Quantifiers),
+Semantics of FirstOrder Logic,
+Universal and
+Existential
+Quantifiers,
+Representing Facts
+and Rules in FOL,
+Advantages of FOL
+over Propositional
+Logic
+1. Remember: Identify the key components
+of First-Order Logic.
+2. Understand: Explain the meaning and
+usage of quantifiers in FOL.
+3. Apply: Translate simple natural language
+sentences into FOL.
+4. Analyze: Compare and contrast
+Propositional Logic and First-Order Logic.
+5. Evaluate: Discuss the increased
+expressiveness of FOL for knowledge
+representation.
+6. Create: Represent a more complex
+scenario using first-order logic.
+Translate a
+given set of
+natural
+language rules
+and facts about
+a family
+relationship
+into First-Order
+Logic.
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/
+6 Inference in
+First-Order
+Logic
+Inference Rules
+(Modus Ponens,
+Universal
+Instantiation, etc.),
+Forward Chaining,
+Backward Chaining,
+Resolution,
+Unification
+1. Remember: List common inference rules
+used in First-Order Logic.
+2. Understand: Explain the mechanisms of
+forward and backward chaining.
+3. Apply: Use inference rules to derive new
+conclusions from a set of FOL statements.
+4. Analyze: Determine the steps involved in
+the resolution inference process.
+5. Evaluate: Compare the efficiency and
+applicability of forward and backward
+chaining.
+6. Create: Design a simple inference process
+for a given set of FOL rules.
+Given a
+knowledge
+base in FOL,
+apply forward
+or backward
+chaining to
+answer specific
+queries.
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/
+JOHN AHENDA 5
+7 Semantic
+Networks
+Structure of
+Semantic Networks
+(Nodes, Edges,
+Labels), Types of
+Relationships (Is-A,
+Part-Of, etc.),
+Inheritance in
+Semantic Networks,
+Advantages and
+Disadvantages of
+Semantic Networks
+1. Remember: Describe the basic
+components of a Semantic Network.
+2. Understand: Explain how different types
+of relationships are represented in semantic
+networks.
+3. Apply: Draw a semantic network to
+represent a given set of facts.
+4. Analyze: Identify the hierarchical and
+associative relationships within a semantic
+network.
+5. Evaluate: Discuss the strengths and
+weaknesses of using semantic networks for
+knowledge representation.
+6. Create: Design a semantic network for a
+specific domain, identifying key concepts and
+their relationships.
+Model a simple
+biological
+taxonomy using
+a semantic
+network
+diagram.
+http://www.eecs.qmul.ac.uk/~mm
+h/AINotes/AINotes4.pdf,(https://w
+eb.stanford.edu/class/cs227/Readi
+ngs/KryptonAFunctionalApproachT
+oKRR.pdf),
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.geeksforgeeks.org/se
+mantic-networks-in-artificialintelligence/,
+https://www.scaler.com/topics/art
+ificial-intelligencetutorial/techniques-of-knowledgerepresentation/,
+https://www.professionalai.com/difference-betweensemantic-net-and-frame.html
+JOHN AHENDA 6
+8 Frames Structure of Frames
+(Slots, Facets,
+Fillers), Inheritance
+in Frame Systems,
+Default Values,
+Procedures
+Attached to
+Frames,
+Advantages and
+Disadvantages of
+Frames
+1. Remember: Identify the main
+components of a frame in knowledge
+representation.
+2. Understand: Explain how inheritance
+works in frame-based systems.
+3. Apply: Represent a stereotypical object
+or event using a frame structure.
+4. Analyze: Compare and contrast frames
+with semantic networks.
+5. Evaluate: Discuss the suitability of
+frames for representing specific types of
+knowledge.
+6. Create: Design a set of interconnected
+frames to represent a common scenario.
+Develop a framebased
+representation for
+a "Student" entity,
+including relevant
+slots, facets, and
+default values.
+http://www.eecs.qmul.ac.uk/~mm
+h/AINotes/AINotes4.pdf,(https://w
+eb.stanford.edu/class/cs227/Readi
+ngs/KryptonAFunctionalApproachT
+oKRR.pdf),
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.geeksforgeeks.org/fr
+ames-in-ai-knowledgerepresentation-and-inheritance/,
+https://www.scaler.com/topics/art
+ificial-intelligencetutorial/techniques-of-knowledgerepresentation/,
+https://www.professionalai.com/difference-betweensemantic-net-and-frame.html
+9 Ontologies:
+Definition and
+Purpose
+Definition of
+Ontology in KBS,
+Purpose of
+Ontologies (Shared
+Understanding,
+Knowledge Sharing,
+Reasoning),
+Components of an
+Ontology (Classes,
+Properties,
+Relationships,
+1. Remember: Define the concept of an
+ontology in the context of KnowledgeBased Systems.
+2. Understand: Explain the key purposes
+and benefits of using ontologies.
+3. Apply: Identify the core components
+that typically constitute an ontology.
+4. Analyze: Differentiate between
+different levels or types of ontologies.
+5. Evaluate: Discuss the role of ontologies
+in facilitating knowledge sharing and
+reasoning.
+Write a short
+essay explaining
+the definition and
+purpose of
+ontologies in
+knowledge
+representation.
+https://www.smartsheet.com/kno
+wledge-base-systems-andtemplates,(https://www.researchg
+ate.net/publication/307863010_K
+nowledge_Representation_with_O
+ntology_Tools_Methodology),
+https://ischool.illinois.edu/researc
+h/areas/knowledgerepresentation-ontologies,
+https://citeseerx.ist.psu.edu/docu
+ment?repid=rep1&type=pdf&doi=
+c0cf4b0a15db9e60811900d4a00f4
+JOHN AHENDA 7
+Axioms), Levels of
+Ontologies
+6. Create: Outline the basic structure of
+an ontology for a given domain.
+481a251b35b,
+https://www.abdn.ac.uk/registry/c
+ourses/undergraduate/2019-
+2020/computing_science/cs3025,
+https://www4.uib.no/en/courses/i
+nfo282, https://telnyx.com/learnai/knowledge-reasoning
+10 Ontology
+Development
+Ontology
+Development
+Methodologies
+(e.g., Top-Down,
+Bottom-Up,
+Middle-Out), Key
+Steps in Ontology
+Development
+(Conceptualization,
+Formalization,
+Implementation,
+Evaluation),
+Ontology
+Languages (RDF,
+RDFS, OWL)
+1. Remember: List the common
+methodologies for developing ontologies.
+2. Understand: Describe the main steps
+involved in the ontology development
+process.
+3. Apply: Identify appropriate ontology
+languages for different knowledge
+representation needs.
+4. Analyze: Compare and contrast
+different ontology development
+methodologies.
+5. Evaluate: Assess the challenges and
+best practices in building effective
+ontologies.
+6. Create: Develop a conceptual model
+for a simple ontology in a chosen domain.
+Design the initial
+conceptualization
+phase of an
+ontology for a
+specific domain
+(e.g., university
+courses).
+https://en.wikipedia.org/wiki/Kno
+wledgebased_systems,(https://www.rese
+archgate.net/publication/3078630
+10_Knowledge_Representation_wi
+th_Ontology_Tools_Methodology)
+JOHN AHENDA 8
+11 Semantic Web
+Technologies
+and KBS
+Introduction to the
+Semantic Web, Role
+of Ontologies in the
+Semantic Web, RDF
+(Resource
+Description
+Framework), RDFS
+(RDF Schema), OWL
+(Web Ontology
+Language), SPARQL
+Query Language
+1. Remember: Identify the core
+technologies associated with the
+Semantic Web.
+2. Understand: Explain how ontologies
+are utilized within the Semantic Web
+framework.
+3. Apply: Describe the basic principles of
+RDF, RDFS, and OWL.
+4. Analyze: Explain how SPARQL is used to
+query semantic data.
+5. Evaluate: Discuss the impact of
+Semantic Web technologies on the
+development of KBS.
+6. Create: Formulate a simple query using
+SPARQL for a given RDF dataset.
+Write a report on
+how Semantic
+Web technologies
+enhance the
+capabilities of
+Knowledge-Based
+Systems.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/
+12 Reasoning and
+Inference in
+KBS
+Rule-Based
+Reasoning (Forward
+Chaining, Backward
+Chaining), CaseBased Reasoning,
+Reasoning with
+Uncertainty
+(Introduction to
+Bayesian
+Reasoning, Fuzzy
+Logic)
+1. Remember: List different types of
+reasoning mechanisms used in KBS.
+2. Understand: Explain the step-by-step
+process of forward and backward
+chaining.
+3. Apply: Determine whether forward or
+backward chaining is more suitable for a
+given problem.
+4. Analyze: Compare and contrast rulebased and case-based reasoning.
+5. Evaluate: Discuss the challenges of
+reasoning with uncertain information.
+6. Create: Design a simple rule-based
+system for a specific task.
+Given a set of rules
+and facts, trace
+the execution of
+forward or
+backward chaining
+to reach a
+conclusion.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-inai/,(https://web.mst.edu/libcirc/files/Special%20Collections/IN
+COSE2010/An%20introduction%20
+to%20knowledge%20representatio
+n%20and%20ontology%20develop
+ment%20for%20systems%20engin
+eers.pdf)
+JOHN AHENDA 9
+13 Expert
+Systems:
+Architecture
+and
+Components
+Basic Architecture
+of an Expert System
+(Knowledge Base,
+Inference Engine,
+User Interface),
+Knowledge
+Acquisition
+Subsystem,
+Explanation
+Subsystem,
+Working Memory
+1. Remember: Identify the main
+components of an Expert System.
+2. Understand: Explain the function of
+each component in the overall
+architecture.
+3. Apply: Describe how knowledge is
+acquired and utilized in an expert system.
+4. Analyze: Explain the role of the
+explanation subsystem in enhancing user
+trust.
+5. Evaluate: Discuss the key architectural
+considerations in designing an expert
+system.
+6. Create: Sketch a basic architecture for
+an expert system in a chosen domain.
+Draw a diagram
+illustrating the
+architecture of a
+typical expert
+system and briefly
+describe the role
+of each
+component.
+https://kmslh.com/glossary/knowl
+edge-based-system/,
+https://en.wikipedia.org/wiki/Kno
+wledgebased_systems,(https://web.mst.e
+du/libcirc/files/Special%20Collections/IN
+COSE2010/An%20introduction%20
+to%20knowledge%20representatio
+n%20and%20ontology%20develop
+ment%20for%20systems%20engin
+eers.pdf),
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559
+14 Expert
+Systems:
+Knowledge
+Acquisition
+Challenges in
+Knowledge
+Acquisition,
+Techniques for
+Knowledge
+Acquisition
+(Interviews,
+Protocol Analysis,
+Questionnaires,
+Rule Induction),
+Role of the
+Knowledge
+Engineer
+1. Remember: List common challenges
+encountered during knowledge
+acquisition.
+2. Understand: Describe various
+techniques used to elicit knowledge from
+domain experts.
+3. Apply: Identify the appropriate
+knowledge acquisition technique for a
+given scenario.
+4. Analyze: Explain the crucial role of the
+knowledge engineer in the development
+process.
+5. Evaluate: Discuss the importance of
+effective communication between the
+Conduct a mock
+interview with a
+classmate acting
+as a domain expert
+and document the
+acquired
+knowledge.
+https://en.wikipedia.org/wiki/Kno
+wledgebased_systems,(https://web.mst.e
+du/libcirc/files/Special%20Collections/IN
+COSE2010/An%20introduction%20
+to%20knowledge%20representatio
+n%20and%20ontology%20develop
+ment%20for%20systems%20engin
+eers.pdf)
+JOHN AHENDA 10
+knowledge engineer and the domain
+expert.
+6. Create: Develop a set of interview
+questions to acquire knowledge from a
+hypothetical domain expert.
+15 Expert
+Systems:
+Development
+Lifecycle and
+Tools
+Stages in the
+Development
+Lifecycle of an
+Expert System
+(Problem
+Identification,
+Knowledge
+Acquisition, Design,
+Implementation,
+Testing,
+Deployment,
+Maintenance),
+Introduction to
+Expert System
+Shells (e.g., CLIPS,
+Exsys),
+Programming
+Languages for
+Expert Systems
+(e.g., Prolog)
+1. Remember: List the key stages in the
+expert system development lifecycle.
+2. Understand: Explain the activities
+involved in each stage of the lifecycle.
+3. Apply: Identify suitable tools and
+programming languages for building
+expert systems.
+4. Analyze: Discuss the iterative nature of
+the expert system development process.
+5. Evaluate: Assess the importance of
+testing and maintenance in ensuring the
+reliability of an expert system.
+6. Create: Outline a development plan for
+a simple expert system.
+Research and
+present on a
+specific expert
+system shell or
+programming
+language used for
+building expert
+systems.
+https://en.wikipedia.org/wiki/Kno
+wledgebased_systems,(https://web.mst.e
+du/libcirc/files/Special%20Collections/IN
+COSE2010/An%20introduction%20
+to%20knowledge%20representatio
+n%20and%20ontology%20develop
+ment%20for%20systems%20engin
+eers.pdf),
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559,(https://ww
+w.researchgate.net/publication/30
+7863010_Knowledge_Representati
+on_with_Ontology_Tools_Method
+ology)
+JOHN AHENDA 11
+16 Problem
+Solving and
+Search in KBS
+Introduction to
+Problem Solving in
+AI, State Space
+Representation,
+Blind Search
+Strategies (BreadthFirst Search, DepthFirst Search),
+Heuristic Search
+Strategies (BestFirst Search, A*
+Search), Role of
+Search in KBS
+1. Remember: Define the concept of a state
+space in problem solving.
+2. Understand: Explain the principles of blind
+and heuristic search algorithms.
+3. Apply: Trace the execution of a simple
+search algorithm on a given problem.
+4. Analyze: Compare and contrast different
+search strategies in terms of efficiency and
+completeness.
+5. Evaluate: Discuss the importance of
+heuristics in solving complex problems in
+KBS.
+6. Create: Formulate a search problem and
+propose a suitable search strategy.
+Implement a
+simple search
+algorithm (e.g.,
+BFS or DFS) to
+solve a basic
+problem like
+navigating a
+grid.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559
+17 Machine
+Learning for
+Knowledge
+Acquisition
+Introduction to
+Machine Learning,
+Symbolic Machine
+Learning Methods
+(Decision Trees,
+Rule Learning),
+Analogy-Based
+Learning (CaseBased Reasoning),
+Clustering for
+Knowledge
+Discovery,
+Incremental
+Concept Learning
+1. Remember: Define the basic concepts of
+machine learning.
+2. Understand: Explain how symbolic
+machine learning techniques can be used for
+knowledge acquisition.
+3. Apply: Identify scenarios where different
+machine learning methods can be used to
+extract knowledge.
+4. Analyze: Compare and contrast different
+symbolic machine learning approaches.
+5. Evaluate: Discuss the advantages and
+limitations of using machine learning for
+knowledge acquisition in KBS.
+6. Create: Outline a plan to use a specific
+machine learning technique to acquire
+knowledge in a given domain.
+Explore a
+publicly
+available
+dataset and
+propose how a
+machine
+learning
+algorithm could
+be used to
+extract relevant
+knowledge for
+a KBS.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559
+JOHN AHENDA 12
+18 Case-Based
+Reasoning in
+Detail
+The CBR Cycle
+(Retrieve, Reuse,
+Revise, Retain),
+Case
+Representation,
+Similarity
+Measures, Case
+Adaptation,
+Advantages and
+Disadvantages of
+CBR
+1. Remember: List the steps involved in the
+Case-Based Reasoning cycle.
+2. Understand: Explain how cases are
+represented and retrieved in a CBR system.
+3. Apply: Identify appropriate similarity
+measures for different types of cases.
+4. Analyze: Describe the process of adapting
+a retrieved case to a new problem.
+5. Evaluate: Discuss the strengths and
+weaknesses of using CBR for problem
+solving.
+6. Create: Design a basic case representation
+for a specific problem domain.
+Develop a
+simple case
+base for a
+specific
+problem (e.g.,
+recommending
+movies) and
+outline the
+steps to solve a
+new problem
+using CBR.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf
+19 Planning in
+KnowledgeBased Systems
+Introduction to
+Planning,
+Components of a
+Planning System
+(Goal, Actions,
+States), Forward
+and Backward
+Planning, Plan
+Representation,
+Applications of
+Planning in KBS
+1. Remember: Define the concept of
+planning in the context of AI.
+2. Understand: Explain the key components
+of a planning system.
+3. Apply: Distinguish between forward and
+backward planning approaches.
+4. Analyze: Describe how plans are typically
+represented.
+5. Evaluate: Discuss the challenges and
+applications of planning in KBS.
+6. Create: Formulate a simple planning
+problem and propose a sequence of actions
+to achieve the goal.
+Model a simple
+task (e.g.,
+making a cup of
+tea) as a
+planning
+problem,
+defining the
+initial state,
+goal state, and
+possible
+actions.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559
+JOHN AHENDA 13
+20 Constraint
+Satisfaction
+Problems
+Definition of CSP,
+Components of a
+CSP (Variables,
+Domains,
+Constraints),
+Constraint
+Propagation,
+Backtracking
+Search,
+Applications of
+CSP in KBS
+1. Remember: Define the key elements of a
+Constraint Satisfaction Problem.
+2. Understand: Explain the concepts of
+constraint propagation and backtracking
+search.
+3. Apply: Model a simple real-world problem
+as a CSP.
+4. Analyze: Describe how constraints are
+used to reduce the search space in CSPs.
+5. Evaluate: Discuss the suitability of CSPs for
+solving certain types of problems in KBS.
+6. Create: Formulate a set of constraints for
+a given problem.
+Model a simple
+scheduling
+problem as a
+Constraint
+Satisfaction
+Problem,
+identifying
+variables,
+domains, and
+constraints.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf,
+https://www.slideshare.net/slides
+how/introduction-to-ontologiesknowledge-representationreasoning/273144559
+21 Knowledge
+Revision and
+Truth
+Maintenance
+Challenges of
+Maintaining
+Consistency in
+Knowledge Bases,
+Sources of
+Knowledge
+Change, Truth
+Maintenance
+Systems (TMS),
+Belief Revision,
+Non-Monotonic
+Reasoning
+1. Remember: Identify the challenges
+associated with updating knowledge bases.
+2. Understand: Explain the purpose of Truth
+Maintenance Systems. 3. Apply: Describe
+how beliefs can be revised in response to
+new information. 4. Analyze: Differentiate
+between monotonic and non-monotonic
+reasoning. 5. Evaluate: Discuss the
+importance of knowledge revision in
+dynamic environments. 6. Create: Outline a
+simple scenario where knowledge revision
+would be necessary.
+Describe a
+situation where
+new
+information
+contradicts
+existing
+knowledge in a
+KBS and explain
+how a truth
+maintenance
+system might
+handle this
+conflict.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf
+JOHN AHENDA 14
+22 Intelligent
+Agents and
+KBS
+Definition of
+Intelligent Agents,
+Characteristics of
+Intelligent Agents
+(Autonomy,
+Reactivity,
+Proactiveness,
+Social Ability),
+Integration of KBS
+with Intelligent
+Agents, Agent
+Architectures
+1. Remember: Define the concept of an
+Intelligent Agent.
+2. Understand: Explain the key
+characteristics that define an intelligent
+agent.
+3. Apply: Describe how knowledge-based
+systems can be used to build intelligent
+agents.
+4. Analyze: Compare different architectures
+for intelligent agents.
+5. Evaluate: Discuss the benefits of
+integrating KBS with intelligent agents.
+6. Create: Propose an architecture for an
+intelligent agent that utilizes a knowledgebased system.
+Design a simple
+intelligent
+agent for a
+specific task,
+outlining how it
+would use a
+knowledge
+base to achieve
+its goals.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.csee.umbc.edu/cours
+es/undergraduate/471/fall15/02/s
+tatic/files/krr.pdf
+23 Evaluating and
+Validating
+KnowledgeBased Systems
+Importance of
+Evaluation and
+Validation, Criteria
+for Evaluation
+(Accuracy,
+Efficiency, Usability,
+Completeness),
+Methods for
+Evaluation (Testing,
+Expert Review, User
+Feedback),
+Validation
+Techniques
+1. Remember: Explain why evaluating and
+validating KBS are important.
+2. Understand: Describe the key criteria
+used to assess the quality of a KBS.
+3. Apply: Identify different methods for
+evaluating the performance of a KBS.
+4. Analyze: Explain the difference between
+validation and verification.
+5. Evaluate: Discuss the challenges in
+objectively evaluating the effectiveness of a
+KBS.
+6. Create: Develop a basic evaluation plan
+for a hypothetical KBS.
+Design a set of
+test cases to
+evaluate the
+performance of
+a rule-based
+expert system
+for a specific
+domain.
+https://en.wikipedia.org/wiki/Kno
+wledgebased_systems,(https://web.mst.e
+du/libcirc/files/Special%20Collections/IN
+COSE2010/An%20introduction%20
+to%20knowledge%20representatio
+n%20and%20ontology%20develop
+ment%20for%20systems%20engin
+eers.pdf)
+JOHN AHENDA 15
+24 Emerging
+Trends and
+Future
+Directions in
+KBS
+Integration of KBS
+with Machine
+Learning (Deep
+Learning,
+Knowledge
+Graphs), Scalable
+Knowledge Graphs,
+Explainable AI (XAI)
+in KBS, Human-AI
+Collaboration with
+KBS, Applications in
+Emerging Domains
+1. Remember: Identify current trends in the
+field of Knowledge-Based Systems.
+2. Understand: Explain how KBS are being
+integrated with other AI technologies like
+machine learning.
+3. Apply: Describe the concept of
+Knowledge Graphs and their role in KBS.
+4. Analyze: Discuss the importance of
+explainability in modern KBS.
+5. Evaluate: Assess the potential of KBS in
+future applications and research.
+6. Create: Propose a novel application of
+KBS leveraging emerging trends in AI.
+Research and
+present on a
+specific
+emerging trend
+in KnowledgeBased Systems,
+such as the use
+of knowledge
+graphs or
+explainable AI.
+https://en.wikipedia.org/wiki/Kno
+wledge-based_systems,
+https://www.geeksforgeeks.org/k
+nowledge-representation-in-ai/
+Teaching Methodology
+This course employs a blended, student-centered approach that prioritizes active learning and hands-on practice. Key strategies include:
+1. Scaffolded Learning: Concepts are introduced incrementally, starting with foundational syntax and progressing to advanced
+applications. Each lesson builds on prior knowledge through guided examples and exercises.
+2. Interactive Coding Labs: Students engage in real-time coding exercises during class, with immediate feedback from instructors to
+reinforce understanding and troubleshoot errors.
+3. Collaborative Learning: Pair programming, group projects, and peer code reviews foster teamwork and expose students to diverse
+problem-solving approaches.
+4. Project-Based Learning: Capstone assignments and a final project simulate real-world challenges, requiring students to synthesize
+concepts, debug code, and present solutions.
+5. Flipped Classroom Elements: Pre-class resources (e.g., short videos, readings) introduce theoretical concepts, freeing class time for
+interactive problem-solving and discussion.
+Assessment & Feedback:
+• Formative assessments (quizzes, mini-projects) track progress.
+• Summative assessments (capstone assignments, final project) evaluate mastery.
+• Differentiated instruction accommodates varying skill levels through optional challenges and tailored support.
+This methodology ensures students develop technical proficiency, critical thinking, and confidence to tackle real-world programming tasks.
+JOHN AHENDA 16
+Assessment
+Mid Semester Exam 20%
+End Semester Exam 30%
+Portfolio 15%
+Group work 10%
+CAT 5%
+Project 15
+Attendance/Particiapation 5%
+Grading System
+Score Grade
+90 - 100 A
+87 -89 A84 - 86 B+
+80 - 83 B
+77 - 79 B74 - 76 C+
+70 - 74 C
+67 - 69 C64 - 66 D+
+62 - 63 D
+60 - 61 D0 - 59 F
+Accessibility & Inclusion Statement
+USIU-Africa is committed to ensuring that all students, including those with disabilities, have equitable access to learning opportunities. If you
+anticipate or experience any barriers to learning, please contact the Disability Inclusion Department at inclusion@usiu.ac.ke. You are also
+encouraged to speak with me so we can work together to ensure you have the support you need to succeed in this course.
